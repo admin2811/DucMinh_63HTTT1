@@ -52,4 +52,7 @@ public class EmployeeManage {
         return false;
     }
 
+    public List<Employee> getEmployeeList() {
+        return employeeList;
+    }
 }
